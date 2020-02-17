@@ -1,0 +1,38 @@
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+body {
+    background: gray;
+}
+h1 {
+    color: blue;
+}
+.image {
+  width: 600px;
+}
+@media screen and (max-width: 600px) {
+  .image {
+    width: 100%;
+  }
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+
+  border-style: solid;
+  border-color: gray;
+  padding: 5px;
+  margin: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
